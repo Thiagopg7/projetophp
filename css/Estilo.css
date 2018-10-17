@@ -1,0 +1,213 @@
+body {
+  color: #a7a599;
+  background: #31302b;
+}
+
+main {
+  color: #000000;
+  background: #eeeeee;
+}
+
+/*Login form style*/
+/* === Logo === */
+.logo {
+  background-position: center;
+  height: 60px;
+  width: 140px;
+  margin: 100px auto 30px auto;
+}
+
+/* === Form === */
+.form {
+  width: 100%;
+}
+.form .field {
+  position: relative;
+  margin: 0 50px;
+}
+.form .field i {
+  font-size: 18px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  height: 44px;
+  width: 44px;
+  color: #f7f3eb;
+  background: #676056;
+  text-align: center;
+  line-height: 44px;
+  transition: all 0.3s ease-out;
+  pointer-events: none;
+}
+
+/* === Login styles === */
+.login {
+  position: relative;
+  margin: 100px auto;
+  width: 370px;
+  height: 300px;
+  background: white;
+  border-radius: 3px;
+}
+.login:before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  z-index: -1;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+.login h1 {
+  line-height: 55px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  background: #3060ff;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.login .submit {
+  text-align: center;
+}
+.login p:first-child {
+  margin-top: 30px;
+}
+
+/*input style*/
+/* === Input Form === */
+::-webkit-input-placeholder {
+  color: #ded9cf;
+}
+
+:-moz-placeholder {
+  color: #ded9cf !important;
+}
+
+.form input[type=text], input[type=password] {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 15px 10px 55px;
+  position: relative;
+  width: 200px;
+  height: 24px;
+  color: #676056;
+  border: none;
+  background: #f7f3eb;
+  color: #777;
+  transition: color 0.3s ease-out;
+}
+
+.form input[type=text] {
+  margin-bottom: 15px;
+}
+
+.form input[type=text]:hover ~ i,
+.form input[type=password]:hover ~ i {
+  color: #60aaff;
+}
+
+.form input[type=text]:focus ~ i,
+.form input[type=password]:focus ~ i {
+  color: #60aaff ;
+}
+
+.form input[type=submit] {
+  margin-top: 15px;
+  width: 270px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 12px 0;
+  letter-spacing: 0;
+  box-shadow: inset 0px 0px 0px 0px #3060ff;
+  color: #fff;
+  background-color: #3060ff;
+  text-shadow: none;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 20px;
+
+}
+
+.form input[type=submit]:hover, input[type=submit]:focus {
+  color: #fff;
+    box-shadow: inset 0px 46px 0px 0px #60aaff;
+
+}
+
+/* CSS do header */
+header h1, h2{
+	text-align: center;
+	color: #ffffff;
+}
+
+#cabecalho{
+	background-color: #000000;
+	overflow: auto;
+}
+
+/* CSS do Menu do topo */
+#menuTopo{
+	background-color: #252525;
+}
+
+#listaMenuTopo {
+    background-color: #3060ff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;	
+}
+
+#botaoMenuTopo {
+    display: inline;
+	float: left;
+	background-color: #3060ff;
+}
+
+
+#botaoMenuTopo a:hover {
+    background-color: #60aaff;
+    color: #ffffff;
+}
+
+
+#botaoMenuTopo a{
+    display: block;
+    padding: 8px;
+    background-color: #3060ff;
+	color: white;
+	text-decoration:none;
+	padding: 20px 20px 20px 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
